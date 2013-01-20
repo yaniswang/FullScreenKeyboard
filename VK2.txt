@@ -1,0 +1,258 @@
+/************键盘上各键的扫描码以及组合键的扫描码***************/
+#define KEY_L1 0x4F  /*小写键盘上的键*/
+#define KEY_L2 0x50
+#define KEY_L3 0x51
+#define KEY_L4 0x4B
+#define KEY_L6 0x4D
+#define KEY_L7 0x47
+#define KEY_L8 0x48
+#define KEY_L9 0x49
+#define KEY_ADD 0x2B
+#define KEY_SUB 0x2D
+#define KEY_LEFT 75      /*左箭头*/
+#define KEY_RIGHT 77     /*右箭头*/
+#define KEY_UP 72        /*上箭头*/
+#define KEY_DOWN 80      /*下箭头*/
+#define KEY_F1 59
+#define KEY_F2 60
+#define KEY_F3 61
+#define KEY_F4 62
+#define KEY_F5 63
+#define KEY_F6 64
+#define KEY_F7 65
+#define KEY_F8 66
+#define KEY_F9 67
+#define KEY_F10 68
+#define KEY_INSERT 82
+#define KEY_HOME 71
+#define KEY_PAGEUP 73
+#define KEY_PAGEDOWN 81
+#define KEY_DEL 83
+#define KEY_END 79
+
+#define KEY_DASH 12 /* _- */
+#define KEY_EQUAL 13 /* += */
+#define KEY_LBRACKET 26 /* {[ */
+#define KEY_RBRACKET 27 /* }] */
+#define KEY_SEMICOLON 39 /* :; */
+#define KEY_RQUOTE 40 /* ' */
+#define KEY_LQUOTE 41 /* ~` */
+#define KEY_PERIOD 52 /* >. */
+#define KEY_COMMA 51 /* <, */
+#define KEY_SLASH 53 /* ?/ */
+#define KEY_BACKSLASH 43 /* |\ */
+#define KEY_ENTER 28         /*回车键*/
+#define KEY_BACKSPACE 14     /*退格键*/
+#define KEY_SPACE 57         /*空格键*/
+#define KEY_TAB 15
+#define KEY_ESC 1
+#define KEY_Q 16
+#define KEY_W 17
+#define KEY_E 18
+#define KEY_R 19
+#define KEY_T 20
+#define KEY_Y 21
+#define KEY_U 22
+#define KEY_I 23
+#define KEY_O 24
+#define KEY_P 25
+#define KEY_A 30
+#define KEY_S 31
+#define KEY_D 32
+#define KEY_F 33
+#define KEY_G 34
+#define KEY_H 35
+#define KEY_J 36
+#define KEY_K 37
+#define KEY_L 38
+#define KEY_Z 44
+#define KEY_X 45
+#define KEY_C 46
+#define KEY_V 47
+#define KEY_B 48
+#define KEY_N 49
+#define KEY_M 50
+#define KEY_1 2
+#define KEY_2 3
+#define KEY_3 4
+#define KEY_4 5
+#define KEY_5 6
+#define KEY_6 7
+#define KEY_7 8
+#define KEY_8 9
+#define KEY_9 10
+#define KEY_0 11
+
+/+++++++++++++++++++++++++CTR+各键扫描码+++++++++++++++++++++++++/
+#define KEY_F1 0x5E
+#define KEY_F2 0x5F
+#define KEY_F3 0x60
+#define KEY_F4 0x61
+#define KEY_F5 0x62
+#define KEY_F6 0x63
+#define KEY_F7 0x64
+#define KEY_F8 0x65
+#define KEY_F9 0x66
+#define KEY_F10 0x67
+#define KEY_2 0x03
+#define KEY_6 0x1E
+#define KEY_Q 0x11
+#define KEY_W 0x17
+#define KEY_E 0x05
+#define KEY_R 0x12
+#define KEY_T 0x14
+#define KEY_Y 0x19
+#define KEY_U 0x15
+#define KEY_I 0x09
+#define KEY_O 0x0F
+#define KEY_P 0x10
+#define KEY_LBRACKET 0x1B   /* {[ */
+#define KEY_RBRACKET 0x1D   /* }] */
+#define KEY_A 0x01
+#define KEY_S 0x13
+#define KEY_D 0x04
+#define KEY_F 0x06
+#define KEY_G 0x07
+#define KEY_H 0x08
+#define KEY_J 0x0A
+#define KEY_K 0x0B
+#define KEY_L 0x0C
+#define KEY_Z 0x1A
+#define KEY_X 0x18
+#define KEY_C 0x03
+#define KEY_V 0x16
+#define KEY_B 0x02
+#define KEY_N 0x0E
+#define KEY_M 0x0D
+#define KEY_SPACE 0x20
+#define KEY_BACKSPACE 0x7F
+#define KEY_ENTER 0x0A
+#define KEY_BACKSLASH 0x1C  /* |\ */
+#define KEY_L1 0x75  /*小写键盘上的键*/
+#define KEY_L3 0x76
+#define KEY_L4 0x73
+#define KEY_L6 0x74
+#define KEY_L7 0x77
+#define KEY_L9 0x84
+
+/+++++++++++++++++++++++++SHIFT+各键扫描码+++++++++++++++++++++++++/
+#define KEY_LQUOTE 0x7E   /* ~` */
+#define KEY_1 0x21
+#define KEY_2 0x40
+#define KEY_3 0x23
+#define KEY_4 0x24
+#define KEY_5 0x25
+#define KEY_6 0x5E
+#define KEY_7 0x26
+#define KEY_8 0x2A
+#define KEY_9 0x28
+#define KEY_0 0x29
+#define KEY_DASH 0x5F   /* _- */
+#define KEY_EQUAL 0x2B  /* += */
+#define KEY_BACKSPACE 0x08
+#define KEY_Q 0x51
+#define KEY_W 0x57
+#define KEY_E 0x45
+#define KEY_R 0x52
+#define KEY_T 0x54
+#define KEY_Y 0x59
+#define KEY_U 0x55
+#define KEY_I 0x49
+#define KEY_O 0x4F
+#define KEY_P 0x50
+#define KEY_LBRACKET 0x7B  /* {[ */
+#define KEY_RBRACKET 0x7D  /* }] */
+#define KEY_ENTER 0x0D
+#define KEY_A 0x41
+#define KEY_S 0x53
+#define KEY_D 0x44
+#define KEY_F 0x46
+#define KEY_G 0x47
+#define KEY_H 0x48
+#define KEY_J 0x4A
+#define KEY_K 0x4B
+#define KEY_L 0x4C
+#define KEY_SEMICOLON 0x3A   /* :; */
+#define KEY_RQUOTE 0x22      /* ' */
+#define KEY_Z 0x5A
+#define KEY_X 0x58
+#define KEY_C 0x43
+#define KEY_V 0x56
+#define KEY_B 0x42
+#define KEY_N 0x4E
+#define KEY_M 0x4D
+#define KEY_COMMA 0x3E      /* <, */
+#define KEY_PERIOD 0x3F     /* >. */
+#define KEY_SLASH 0x3F      /* ?/ */
+#define KEY_BACKSLASH 0x7C  /* |\ */
+#define KEY_F1 0x54
+#define KEY_F2 0x55
+#define KEY_F3 0x56
+#define KEY_F4 0x57
+#define KEY_F5 0x58
+#define KEY_F6 0x59
+#define KEY_F7 0x5A
+#define KEY_F8 0x5B
+#define KEY_F9 0x5C
+#define KEY_F10 0x5D
+#define KEY_L1 0x31  /*小写键盘上的键*/
+#define KEY_L2 0x32
+#define KEY_L3 0x33
+#define KEY_L4 0x34
+#define KEY_L5 0x35
+#define KEY_L6 0x36
+#define KEY_L7 0x37
+#define KEY_L8 0x38
+#define KEY_L9 0x39
+#define KEY_ADD 0x2B
+#define KEY_SUB 0x2D
+
+/+++++++++++++++++++++++++ALT+各键扫描码+++++++++++++++++++++++++/
+#define KEY_F1 0x68
+#define KEY_F2 0x69
+#define KEY_F3 0x6A
+#define KEY_F4 0x6B
+#define KEY_F5 0x6C
+#define KEY_F6 0x6D
+#define KEY_F7 0x6E
+#define KEY_F8 0x6F
+#define KEY_F9 0x70
+#define KEY_F10 0x71
+#define KEY_1 0x78
+#define KEY_2 0x75
+#define KEY_3 0x7A
+#define KEY_4 0x7B
+#define KEY_5 0x7C
+#define KEY_6 0x7D
+#define KEY_7 0x7E
+#define KEY_8 0x7F
+#define KEY_9 0x80
+#define KEY_0 0x81
+#define KEY_DASH 0x82  /* _- */
+#define KEY_EQUAL 0x83 /* += */
+#define KEY_Q 0x10
+#define KEY_W 0x11
+#define KEY_E 0x12
+#define KEY_R 0x13
+#define KEY_T 0x14
+#define KEY_Y 0x15
+#define KEY_U 0x16
+#define KEY_I 0x17
+#define KEY_O 0x18
+#define KEY_P 0x19
+#define KEY_A 0x1E
+#define KEY_S 0x1F
+#define KEY_D 0x20
+#define KEY_F 0x21
+#define KEY_G 0x22
+#define KEY_H 0x23
+#define KEY_J 0x24
+#define KEY_K 0x25
+#define KEY_L 0x26
+#define KEY_Z 0x2C
+#define KEY_X 0x2D
+#define KEY_C 0x2E
+#define KEY_V 0x2F
+#define KEY_B 0x30
+#define KEY_N 0x31
+#define KEY_M 0x32
